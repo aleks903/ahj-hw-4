@@ -1,3 +1,11 @@
 * {
   box-sizing: border-box;
 }
+
+.img-cards {
+  display: flex;
+}
+
+.img-card {
+  opacity: 0.4;
+}
