@@ -18,14 +18,14 @@ module.exports = {
       filename: './index.html',
       // favicon: './src/favicon.ico',
     }),
-    // new CopyPlugin([
-    //   {
-    //     from: './src/img/', to: 'img/',
-    //   }
-    // ]),
+    new CopyPlugin([
+      {
+        from: './src/img/', to: 'img/',
+      }
+    ]),
   ],
   devServer: {
-    port: 8080,
+    port: 9000,
   },
   module: {
     rules: [
